@@ -31,4 +31,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name : deploying using surge
-      run : surge ./ alert-fear.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run : surge ./ alert-fear.surge.sh --token $ {{ secrets.MY_TOKEN_NAME }}
